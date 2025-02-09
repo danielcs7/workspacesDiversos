@@ -1,0 +1,13 @@
+# Ignorar o diretório do ambiente virtual
+.venv/
+venv/
+
+# Ignorar arquivos CSV
+*.csv
+
+# Ignorar arquivos de banco de dados
+*.db
+*.duckdb
+
+# Ignorar arquivos de log
+*.log

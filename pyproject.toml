@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "workspaceinvestetf"
+version = "0.1.0"
+description = ""
+authors = ["danielcarloss7 <danielcarloss7@icloud.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pandas = "^2.2.3"
+yfinance = "^0.2.52"
+duckdb = "^1.2.0"
+plotly = "^6.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
